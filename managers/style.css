@@ -1,0 +1,208 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('1234.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color:rgba(30, 30, 30, 0.7);
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+}
+
+  /* Контейнер для кнопки "назад" */
+  .back-button-container {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.5); /* Серо-прозрачный фон */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Стили для кнопки "назад" */
+  .back-button {
+    background-color: #007bff; /* Синий цвет */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Темнее синий при наведении */
+  }
+  
+  .back-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Стили для меню */
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .menu a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Стили для таблиц */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.2);
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Стили для форм */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 20px; /* Добавляет интервал между полями */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.2);
+    color: #fff;
+    width: 100%; /* Зафиксирует ширину полей */
+    box-sizing: border-box; /* Включает padding в ширину */
+  }
+  
+  textarea {
+    resize: vertical; /* Позволяет изменять размер textarea только по вертикали */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"]:active {
+    transform: scale(0.95);
+  }
+  /* Контейнер для кнопки "назад" */
+.back-button-container {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.5); /* Серо-прозрачный фон */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    float: right; /* Перемещает кнопку вправо */
+  }
+  
+  /* Стили для кнопки "назад" */
+  .back-button {
+    background-color: #007bff; /* Синий цвет */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Темнее синий при наведении */
+  }
+  
+  .back-button:active {
+    transform: scale(0.95);
+  }
+  /* Стили для select */
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  appearance: none; /* Убирает стандартные стили браузера */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>'); /* Добавляет стрелку */
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+
+/* Стили для option */
+option {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Стили для кнопок */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+  
