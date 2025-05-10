@@ -489,6 +489,41 @@ $computers = $computersStmt->fetchAll(PDO::FETCH_COLUMN);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Создание отчетов
 
 <?php
@@ -544,6 +579,11 @@ $writer = new Xlsx($spreadsheet);
 $writer->save('export/users_report.xlsx');
 
 echo "Отчеты созданы успешно!";
+
+
+
+
+
 
 
 
@@ -727,6 +767,11 @@ try {
 
 
 
+
+
+
+
+
 Отдельный класс для взаимодействия с базой данных
 
 <?php
@@ -742,6 +787,9 @@ try {
     die("Ошибка подключения к базе данных: " . $e->getMessage());
 }
 ?>
+
+
+
 
 Описание функционала программы
  ![image](https://github.com/user-attachments/assets/079b0df4-7b99-408d-bfe8-96b277aefdc5)
